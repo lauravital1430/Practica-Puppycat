@@ -81,16 +81,42 @@ main{
     float:left;
     margin-left: 33px;
     padding: 30px;
-     color: rgb(240, 128, 176);
+    color: rgb(240, 128, 176);
 }
 .info h3{
     font-size: 1.8rem;
     margin: 20px 0px ;
 }
+.info a{
+    color: rgb(211, 65, 128);
+    text-decoration: none;
+}
+.info a:hover{
+    color: rgb(197, 47, 211);
+    transform: scale(1.2);
+}
 footer{
     width: 1366px;
-    height: 200px;
-    background-color: rgb(98, 33, 62);
+    height: auto;
+    background-color:#c95986;
     margin: 0 auto;
     color: white;
+    padding: 30px;
+}
+footer a{
+    display:block;
+    padding-top: 10px;
+    color:rgb(255, 240, 240);
+    text-decoration: none;
+    font-size: large;
+}
+footer a:hover{
+    color:darkorchid;
+    text-decoration: none;
+}
+footer img{
+       height: 200px;;
+}
+footer p{
+    padding-top: 30px;
 }
