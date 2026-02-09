@@ -12,6 +12,7 @@ header{
     background-color: rgb(240, 128, 176);
     margin: 0 auto;
     text-align: center;
+    padding: 10px;
 }
 header img{
     height: 100%;
